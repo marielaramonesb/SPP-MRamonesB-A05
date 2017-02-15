@@ -16,7 +16,7 @@ public class SPPMarielaRamonesBA05 {
      */
     public static void main(String[] args) {
      // TODO code application logic here
-        solicitaEntero("Introduce en numero de miembros de tu ");
+        solicitaEntero("Introduce en numero de miembros de tu familia ");
         solicitaString("texto");
         solicitaLong("long");
         solicitaDouble("Numero con decimal");

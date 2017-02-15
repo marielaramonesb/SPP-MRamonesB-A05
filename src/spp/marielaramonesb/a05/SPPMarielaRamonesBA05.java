@@ -19,7 +19,7 @@ public class SPPMarielaRamonesBA05 {
         solicitaEntero("La edad");
         solicitaString("mensaje");
         solicitaLong("long");
-        solicitaDouble("Numero con sus decimales");
+        solicitaDouble("Numero con decimal");
 
         
     }
@@ -108,8 +108,13 @@ public class SPPMarielaRamonesBA05 {
         } while (flag==false);
         return dob;
     }
+
+    private static void solicitaLong(String along) {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
+
+    private static void solicitaDouble(String numero_con_decimal) {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
 }
 
-    }
-    
-}

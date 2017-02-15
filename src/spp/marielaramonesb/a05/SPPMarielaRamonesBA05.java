@@ -16,20 +16,20 @@ public class SPPMarielaRamonesBA05 {
      */
     public static void main(String[] args) {
      // TODO code application logic here
-        solicitaEntero("La edad");
-        solicitaString("mensaje");
+        solicitaEntero("Introduce en numero de miembros de tu ");
+        solicitaString("texto");
         solicitaLong("long");
         solicitaDouble("Numero con decimal");
 
         
     }
     
-    static int solicitaEntero(String mensaje){
+    static int solicitaEntero(String texto){
         Scanner kb = new Scanner (System.in);
         int numero = 0;
         boolean flag;
         do {
-                System.out.println("Introduce "+ mensaje);
+                System.out.println("Introduce "+ texto);
                 try{
                     numero = kb.nextInt();
                     flag=true;
@@ -45,12 +45,12 @@ public class SPPMarielaRamonesBA05 {
         return numero;
     }
     
-    static String solicitaString(String mensaje){
+    static String solicitaString(String texto){
         Scanner kb = new Scanner (System.in);
         String Dato = ("");
         boolean flag;
         do {
-                System.out.println("Introduce "+ mensaje);
+                System.out.println("Introduce "+ texto);
                 try{
                     Dato = kb.nextLine();
                     flag=true;
@@ -66,12 +66,12 @@ public class SPPMarielaRamonesBA05 {
         return Dato;
     }
     
-    static long solicitaLong(Long mensaje){
+    static long solicitaLong(Long texto){
         Scanner kb = new Scanner (System.in);
         long num = 0;
         boolean flag;
         do {
-                System.out.println("Introduce "+ mensaje);
+                System.out.println("Introduce "+ texto);
                 try{
                     num = kb.nextLong();
                     flag=true;
@@ -88,12 +88,12 @@ public class SPPMarielaRamonesBA05 {
     }
     
     
-        static double solicitaDouble(Double mensaje){
+        static double solicitaDouble(Double texto){
         Scanner kb = new Scanner (System.in);
         double dob = 0;
         boolean flag;
         do {
-                System.out.println("Introduce "+ mensaje);
+                System.out.println("Introduce "+ texto);
                 try{
                     dob = kb.nextDouble();
                     flag=true;
